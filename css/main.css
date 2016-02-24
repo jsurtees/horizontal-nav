@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: "Bevan", cursive;
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  background-color: #79766f;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:hover {
+  background-color: #ff332a;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+li {
+  display: inline-block;
+  background-color: #753735;
+  border-radius: 10px;
+  margin-top: 5px;
+}
